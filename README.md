@@ -2,14 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+First, run
+
+```bash
+npm install
+```
+
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -28,3 +30,13 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 This tool has functions to make developing collages for the app easier, it has a visual interface that allows developers to see the placements of frames inside a collage and move them according to visuals. Then developer can easily get a generated JSON string and put it inside the app.
 
 The tool also has shape saving/loading function, this was done because there are cases where some collages are pretty much the same functionally
+
+Steps to use the tool
+
+1. import image file by clicking choose file button
+2. add frame by clicking add frame button and start editing the frame to fit the image
+3. save preset will save the generated JSON to be used in other frames
+4. Other functions like deleting frames and presets should be self explanatory
+
+This is an internal tool for our own app, I just made it public because there is nothing to hide here. this tool is worthless for people who are unrelated to the project.
+
